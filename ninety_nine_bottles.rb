@@ -80,18 +80,18 @@ def ninety_nine_bottles(n)
     x = english_number n
     y = english_number n-1
     if x == "one"
-      puts x + " bottle of beer on the wall"
-      puts x + " bottle of beer"
+      puts x + " bottle of beer on the wall."
+      puts x + " bottle of beer."
       puts "take one down. pass it around."
     else
-      puts x + " bottles of beer on the wall"
-      puts x + " bottles of beer"
+      puts x + " bottles of beer on the wall."
+      puts x + " bottles of beer."
       puts "take one down. pass it around."
     end
     if x == "two"
-      puts y + " bottle of beer on the wall"
+      puts y + " bottle of beer on the wall."
     else
-      puts y + " bottles of beer on the wall"
+      puts y + " bottles of beer on the wall."
     end
     n -= 1
   end
